@@ -172,7 +172,7 @@ export function PurchasedOrdersProvider({children}) {
     }
 ]
 
-    const [orders, setOrders] = useState([...fakeOrder]);
+    const [orders, setOrders] = useState([]);
     return(
         <PurchasedOrdersContext.Provider value={{
             orders, setOrders
